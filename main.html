@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/f1edb527c8.js" crossorigin="anonymous"></script>
+    <title>Boyko Nazar</title>
+</head>
+<body>
+    <header class="head">
+        <div class="wraper">
+            <div class="container">
+                <div class="head_menu">
+                        <a href="#home"><img src="/images/logo1.png" class="head_logo" style="margin-left: 20px; margin-right: 20px;"></a>
+                        <ul class="nav_bar" id="nav_bar">
+                            <a href="#about_me"><li>About me</li></a>
+                            <a href="#skills"><li style="margin:0% 0% 0% 10%;">Skills</li></a>
+                            <a href="#contact">
+                                <button class="menu_contact" >
+                                    Contact me
+                                </button>
+                            </a>
+                        </ul>
+                </div>
+                <div class="info">
+                    <div class="info_short">
+                        <p class="p.style" style="font-size: 40px; line-height: 47px; margin: 0px">Hi, I am</p>
+                        <p class="p.style" style="font-size: 80px; line-height: 94px; margin-bottom: 0px;">Nazar Boiko</p>
+                        <p1 style="font-weight: 800; font-size: 25px; line-height: 29px; color: #919191;">Front-End developer</p1>
+                        <div class="nav_links">
+                            <div class="link_border">
+                                <a href="https://www.linkedin.com/in/nazar-boiko-a0666121a/" target="_blank">
+                                    <button class="nav_linkedin">
+                                        <i class="fab fa-linkedin" style="font-size: 32px;"></i>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="link_border" style="margin-left: 31px;">
+                                <a href="https://github.com/Nazar-opss" target="_blank">
+                                    <button class="nav_github" >
+                                        <i class="fab fa-github" style="font-size: 32px;"></i>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="link_border">
+                                <button class="nav_skype" style="margin-left: 31px;" onclick="showMySkype()">
+                                    <i class="fab fa-skype" style="font-size: 32px;"></i>
+                                    
+                                </button>
+                            </div>
+                        </div>
+                        <h1 class="ShowSkype" id="ShowSkype">My skype live:.cid.bc027bac9f7e2baf</h1>
+                    </div>
+                    <div class="photo">
+                        <img src="/images/logo2.png" style="max-width: 700px; width: 100%; min-width: 200px;">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <div class="wraper">
+            <div class="container">
+                <div class="about_me_block">
+                    <div class="about_me">
+                        <div class="titles_border" id="about_me">
+                            <p class="titles_text" >ABOUT ME</p>
+                        </div>
+                        <div class="about_text">
+                            <p class="bio">My name is Nazar Boiko I am seventeen. I live in a village near Drohobych called Nyzhni Hai. I’m a third year at<span id="dots">...</span><span id="explore"> Drohobych College of Mechanics and Technology. In 2019, I entered college, majoring in software development. For the last six months I have been studying frontend development. I like my future profession and I will do my best to become a good specialist. I am self-motivated team player focused on achieving project goals. I am always keen to up-skill myself by learning new things whenever i get a chance. In free time, i enjoy spending time with friends, sometimes cooking, listening to music and playing outdoor sports.
+                                If you have any specific questions, please contact me, i will be glad to answer that.</span></p>
+                            <div class="explore">
+                                <button class="exp_button" onclick="exploreMore()" id="expBtn">
+                                    <p style="margin: 0px;">EXPLORE</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_">
+                        <div class="titles_border" id="skills">
+                            <p class="titles_text">SKILLS</p>
+                        </div>
+                        <div class="my_skills">
+                            <p class="titles_text" style="letter-spacing: 0.18538em;">USING NOW:</p>
+                            <div class="skills_list">
+                                <div class="skill">
+                                    <img src="/images/html5-svgrepo-com.svg" alt="HTML5" style="width: 100%; max-width: 96.32px;">
+                                    <p class="skill_name">HTML5</p>
+                                </div>
+                                <div class="skill">
+                                    <img src="/images/css3-svgrepo-com.svg" alt="CSS3" style="width: 100%; max-width: 96.32px;">
+                                    <p class="skill_name">CSS3</p>
+                                </div>
+                                <div class="skill">
+                                    <img src="/images/figma-1-logo-svgrepo-com.svg" alt="FIGMA" style="width: 100%; max-width: 96.32px;">
+                                    <p class="skill_name">FIGMA</p>
+                                </div>
+                                <div class="skill">
+                                    <img src="/images/js.svg" alt="JAVASCRIPT" style="width: 100%; max-width: 96.32px;">
+                                    <p class="skill_name">JAVA<br>SCRIPT</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my_learn">
+                            <p class="titles_text" style="letter-spacing: 0.18538em;">LEARNING:</p>
+                            <div class="skills_list">
+                                
+                                <div class="learn">
+                                    <img src="/images/react native.svg" alt="REACT" style="width: 100%; max-width: 96.32px;">
+                                    <p class="learn_name">REACT</p>
+                                </div>
+                                <div class="learn">
+                                    <img src="/images/js.svg" alt="JAVASCRIPT" style="width: 100%; max-width: 96.32px;">
+                                    <p class="learn_name">JAVA<br>SCRIPT</p>
+                                </div>
+                                <div class="learn">
+                                    <img src="/images/node.svg" alt="NODEJS" style="width: 100%; max-width: 96.32px;">
+                                    <p class="learn_name">NODEJS</p>
+                                </div>
+                                <div class="learn">
+                                    <img src="/images/mysql.svg" alt="MYSQL" style="width: 100%; max-width: 96.32px;">
+                                    <p class="learn_name">MySQL</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="other">
+                            <p class="titles_text" style="letter-spacing: 0.18538em;">OTHER SKILLS:</p>
+                            <div class="skills_list">
+                                <div class="learn">
+                                    <img src="/images/united-kingdom-svgrepo-com.svg" alt="English" style="width: 100%; max-width: 96.32px; margin: 0px auto;">
+                                    <p class="learn_name">English <br> Pre-Intermediate</p>
+                                </div>
+                                <div class="learn">
+                                    <img src="/images/photoshop-svgrepo-com.svg" alt="Photoshop" style="width: 100%; max-width: 96.32px;">
+                                    <p class="learn_name">PHOTOSHOP</p>
+                                </div>
+                                <div class="learn">
+                                    <img src="/images/c-plusplus-svgrepo-com.svg" alt="C++" style="width: 100%; max-width: 96.32px;">
+                                    <p class="learn_name">C++</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="titles_border" id="contact">
+                            <p class="titles_text">CONTACT</p>
+                        </div>
+                        <div class="contact_wr">
+                            <div class="nametype">
+                                <input type="name" size="42" class="name" placeholder="ENTER YOUR NAME*">
+                            </div>
+                            <div class="emailtype">
+                                <input type="email" size="42" class="e-mail" placeholder="ENTER YOUR EMAIL*">
+                            </div>
+                            <div class="phonetype">
+                                <input type="tel" size="42" class="phone" placeholder="PHONE NUMBER" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"required>
+                            </div>
+                            <div class="yourmessage">
+                                <textarea name="Message" id="yourmessage" cols="43" rows="10" placeholder="YOUR MESSAGE*"></textarea>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <button class="sub_button">
+                                <p>SUBMIT</p>
+                            </button>
+                        </div>
+                    </div>
+                    <button onclick="getUp()" id="getUpBtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wraper">
+            <div class="container">
+                
+            </div>
+        </div>
+        <div class="back">
+            <a href=#nav_bar>
+                <div class="back_to_top">
+                    <i class="fas fa-angle-double-up" style="font-size: 14px; color: white;"></i>
+                    <p style="margin: 0px;">BACK TO TOP</p>
+                </div>
+            </a>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
